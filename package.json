@@ -1,7 +1,8 @@
 {
-  "name": "swlaw-react",
+  "name": "swlaw",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://meinstein.github.io/swlaw/",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.2.0",
