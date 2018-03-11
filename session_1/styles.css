@@ -1,0 +1,56 @@
+/* think about browser compatibility */
+/* always remember to think of the box model */
+/* comment out the entire stylesheet and see how the browser displays elements */
+/* ...notice how comments are declared differently in CSS-land :) */
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: white;
+  margin: 0;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 20px;
+  color: #d65745;
+}
+
+h1 {
+  color: #d65745;
+}
+
+input {
+  width: 65%;
+  height: 40px;
+  border-radius: 16px;
+  font-size: 1.2em;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+footer {
+  text-align: center;
+}

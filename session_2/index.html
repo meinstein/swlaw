@@ -1,0 +1,39 @@
+<!-- this declaration always goes at the start of an HTML file -->
+<!DOCTYPE html>
+<!-- always put your HTML code inside HTML tags -->
+<html>
+  <!-- all meta data and style imports should go inside the head tag -->
+  <head>
+    <!-- what is the character encoding of your content -->
+    <meta charset="utf-8" />
+    <!-- this is what appears inside your browser's tab -->
+    <title>Law Technologies</title>
+    <!-- import your style sheet (should go before body so that elements get styling right away) -->
+    <link rel="stylesheet" href="styles.css">
+  <!-- the 'visual' part of your HTML goes here inside the <body> tag -->
+  <body>
+    <!-- header -->
+    <header>
+      <!-- image -->
+      <img src="logo.png" />
+      <!-- company name -->
+      <p>Go Places Inc.</p>
+    </header>
+    <!-- main section -->
+    <section>
+      <h1>Where will life take you next?</h1>
+      <!-- create input (can be of many different types so must specify) -->
+      <input type="text" />
+      <button>Submit Destination</button>
+    </section>
+    <!-- footer -->
+    <footer>
+      <p>Launching soon!</p>
+    </footer>
+    <!-- import your jQuery here -->
+    <!-- we need to import the library before we import any jQuery code that we've written -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- now that we have access to the jQuery library, we import our use of it -->
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

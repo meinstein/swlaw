@@ -1,0 +1,5 @@
+export { default as day_0 } from './0.md'
+export { default as day_1 } from './1.md'
+export { default as day_2 } from './2.md'
+export { default as day_3 } from './3.md'
+export { default as day_4 } from './4.md'
